@@ -23,7 +23,6 @@ public class OhlHomePage {
     private WebElement submit;
     @FindBy(xpath = "//*[@class='oxd-text oxd-text--p oxd-alert-content-text']")
     public WebElement InvalidCredentials;
-
     public void setUsername(String name) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         username.sendKeys(name);

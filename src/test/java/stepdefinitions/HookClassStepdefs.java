@@ -6,7 +6,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.OhlHomePage;
 import utilities.Driver;
-
 public class HookClassStepdefs {
     OhlHomePage oP = new OhlHomePage(Driver.getDriver());
     @Given("Kullanici anasayfaya gider")
@@ -29,8 +28,8 @@ public class HookClassStepdefs {
     public void senaryoFailOlur() {
         Assert.assertTrue(oP.InvalidCredentials.isDisplayed());
     }
-    @And("Sayfayi kapatir")
-    public void sayfayiKapatir() {
+    @And("Sayfayi tamamen kapatir")
+    public void sayfayiTamamenKapatir() {
         Driver.closeDriver();
     }
 }

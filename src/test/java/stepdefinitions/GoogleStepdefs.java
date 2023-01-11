@@ -6,7 +6,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.GoogleSearchPage;
 import utilities.Driver;
-
 public class GoogleStepdefs {
     @Given("Kullanici google sayfasindadir")
     public void kullaniciGoogleSayfasindadir() {

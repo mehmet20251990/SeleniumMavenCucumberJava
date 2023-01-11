@@ -6,7 +6,7 @@ Feature: negative_login
     And Kullanici password "<password>" girer
     When Kullanici login butonuna tiklar
     And Senaryo fail olur
-    And Sayfayi kapatir
+    And Sayfayi tamamen kapatir
 
     Examples: customer credentials
       | username | password |
