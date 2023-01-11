@@ -1,7 +1,7 @@
 Feature: Google Arama Feature
 
   #Scenario Outline DDT(data driven test) yapma yetenegini bizlere saglar.
-  #Testimiz tabloda bulunan satir sayisi(ilk satir haric) kadar sirasiyla her bir satirdaki verilerle calistirilir
+  #Test tabloda bulunan satir sayisi(ilk satir haric) kadar sirasiyla herbir satirdaki verilerle calistirilir
 
   Scenario Outline:
     Given Kullanici google sayfasindadir
@@ -10,6 +10,6 @@ Feature: Google Arama Feature
 
     Examples:
       |aranacakKelime|dogrulanacakKelime|
-      |samsung       |samsungabc        |
+      |samsung       |samsung           |
       |cucumber      |cucumber          |
       |selenium      |selenium          |

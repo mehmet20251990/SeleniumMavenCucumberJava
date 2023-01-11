@@ -13,5 +13,5 @@ Feature: Google Arama Testi
 
   Scenario: Kullanici selenium aradiginda samsung gormelidir
     When Kullanici selenium kelimesini arar
-    Then Kullanici selenium samsung kelimesi gectigini dogrular
+    Then Kullanici sayfada selenium kelimesi gectigini dogrular
 
